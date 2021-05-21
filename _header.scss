@@ -1,0 +1,90 @@
+.header{
+background:linear-gradient(90deg, rgba(0,0,0,0.700717787114846) 0%, rgba(0,0,0,0.700717787114846) 35%, rgba(0,0,0,0.7035189075630253) 100%),
+url("/Media/Images/HuracanHeader.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-position:center;
+position:relative;
+display:flex;
+justify-content:space-between;
+align-items:center;
+min-height:100vh;
+width:100%;
+padding:1.5rem 2.5rem;
+}
+.head-container{
+position:relative;
+}
+.header-text h2:nth-child(1){
+color:#fff;
+font-size:4rem;
+font-weight:650;
+letter-spacing:8px;
+}
+.header-text h2:nth-child(2){
+color:#fff;
+font-size:4.3rem;
+letter-spacing:8px;
+font-weight:700;
+}
+.header-text a{
+text-decoration:none;
+color:#fff;
+background-color:#C11C1C;
+padding:1rem 4rem;
+border-radius:40px;
+font-weight:600;
+letter-spacing:1px;
+}
+.header-text a:hover{
+background-color:#fff;
+color:#C11C1C;
+transition:.3s ease-in;
+}
+.head-icons{
+position:absolute;
+bottom:0;
+left:10%;
+}
+.head-icons ul{
+list-style-type:none;
+padding:2.5rem;
+display:flex;
+}
+.head-icons ul li{
+padding-right:2rem;
+color:#fff;
+font-size:1.45rem;
+}
+@media(max-width:600px){
+.head-icons ul{
+padding:2rem;
+}
+.head-icons ul li{
+font-size:.9rem;
+padding-right:1.2rem;
+}
+.header-text h2:nth-child(1){
+color:#fff;
+font-size:2rem;
+font-weight:650;
+letter-spacing:8px;
+}
+.header-text h2:nth-child(2){
+color:#fff;
+font-size:2.1rem;
+letter-spacing:8px;
+font-weight:700;
+}
+.header-text a{
+text-decoration:none;
+color:#fff;
+background-color:#C11C1C;
+padding:.9rem 2rem;
+border-radius:40px;
+font-weight:500;
+letter-spacing:1px;
+font-size:.8rem;
+}
+}
