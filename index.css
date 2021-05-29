@@ -49,6 +49,8 @@
   font-weight: 550;
   font-size: .95rem;
   position: relative;
+  -webkit-transition: .1s ease-in;
+  transition: .1s ease-in;
 }
 
 .nav-link::after {
@@ -131,8 +133,7 @@
 }
 
 .header {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.700718)), color-stop(35%, rgba(0, 0, 0, 0.700718)), to(rgba(0, 0, 0, 0.703519))), url("/Media/Images/HuracanHeader.jpg");
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.700718) 0%, rgba(0, 0, 0, 0.700718) 35%, rgba(0, 0, 0, 0.703519) 100%), url("/Media/Images/HuracanHeader.jpg");
+  background: url("/Media/Images/HeaderHuracan.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -204,7 +205,13 @@
 .head-icons ul li {
   padding-right: 2rem;
   color: #fff;
-  font-size: 1.45rem;
+  font-size: 1.2rem;
+}
+
+.blablal {
+  background-color: #fff;
+  color: #fff;
+  padding: 2rem 1rem;
 }
 
 @media (max-width: 600px) {
@@ -261,12 +268,11 @@
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
-  margin-top: 2rem;
 }
 
 .services-cards {
   background-color: #C11C1C;
-  padding: 5.5rem 2.5rem;
+  padding: 4.5rem 2.5rem;
 }
 
 .services-cards-row {
@@ -275,6 +281,7 @@
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 3.5rem;
+  margin-top: 1rem;
 }
 
 .service-flex {
@@ -291,7 +298,7 @@
 
 .service-flex i {
   color: #fff;
-  padding-right: 2.1rem;
+  padding-right: 1.5rem;
   font-size: 1.8rem;
 }
 
@@ -346,7 +353,7 @@
 
 .offer-color p {
   color: #242424;
-  font-size: 1rem;
+  font-size: .9rem;
   padding-bottom: 1.7rem;
   font-weight: 400;
 }
@@ -384,12 +391,151 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #000000ab;
+  background-color: #00000085;
 }
 
 .offer-color h1 {
   color: #212121;
   font-weight: 700;
+}
+
+.offer-color2 {
+  background-color: #fff;
+  padding: 3rem 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.offer-color2 h1 {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+}
+
+.offer-color2 p {
+  color: #242424;
+  font-size: .9rem;
+  padding-bottom: 1.7rem;
+  font-weight: 400;
+}
+
+.offer-color2 a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #C11C1C;
+  width: 20%;
+  padding: .9rem 1rem;
+  font-size: .85rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offer-color2 a i {
+  padding-left: .3rem;
+}
+
+.contact {
+  padding: 5rem 2rem;
+  background-color: #212121;
+}
+
+.contact-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-row .contact50 {
+  width: 50%;
+  position: relative;
+  padding: 1rem 1.5rem;
+}
+
+.contact50 img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-text h4 {
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.contact-text p {
+  color: #fff;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+}
+
+.contact-grid {
+  padding-top: 6rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  line-height: 1.5;
+}
+
+.contact-item {
+  line-height: 2.2;
+  position: relative;
+}
+
+.item-text h3 {
+  color: #C11C1C;
+  font-size: 2rem;
+}
+
+.item-text h5 {
+  color: #fff;
+  font-size: 1.05rem;
+  letter-spacing: 2px;
+}
+
+.item-text p {
+  letter-spacing: 3px;
+  font-size: 0.85rem;
+  color: #fff;
+}
+
+.item-text a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+.item-text .fas .fa-phone {
+  color: #C11C1C;
+  font-size: 2.5rem;
 }
 
 * {

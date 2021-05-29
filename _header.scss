@@ -1,6 +1,5 @@
 .header{
-background:linear-gradient(90deg, rgba(0,0,0,0.700717787114846) 0%, rgba(0,0,0,0.700717787114846) 35%, rgba(0,0,0,0.7035189075630253) 100%),
-url("/Media/Images/HuracanHeader.jpg");
+background:url("/Media/Images/HeaderHuracan.png");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
@@ -55,7 +54,12 @@ display:flex;
 .head-icons ul li{
 padding-right:2rem;
 color:#fff;
-font-size:1.45rem;
+font-size:1.2rem;
+}
+.blablal{
+background-color:#fff;
+color:#fff;
+padding:2rem 1rem;
 }
 @media(max-width:600px){
 .head-icons ul{
